@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+    cursor: pointer;
+    text-decoration-style: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+span {
+    margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}

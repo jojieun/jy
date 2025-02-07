@@ -1,0 +1,1180 @@
+* {
+    border: 0.2px solid cadetblue;
+}
+
+
+
+
+/* ----------------------- section_one ----------------------- */
+#section_one {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(lumiere/section_one_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------- main -------- */
+#main {
+    position: relative;
+    height: 100%;
+}
+
+.main_title {
+    padding: 120px 0px;
+}
+
+.main_title p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 103px;
+    letter-spacing: -1.9px;
+}
+
+.main_title strong {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 103px;
+    /* 122.619% */
+    letter-spacing: -2.1px;
+}
+
+.main_information {
+    max-width: 1580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 2px var(--one-white-color);
+    border-bottom: solid 2px var(--one-white-color);
+    position: relative;
+}
+
+.main_information p {
+    padding: 11px 0px 11px 0px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: -0.6px;
+}
+
+.infor_one {
+    display: flex;
+    gap: 20px;
+}
+
+.infor_two {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main_image {
+    padding-top: 58px;
+    width: 100%;
+    height: 1026px;
+}
+
+.main_image_in {
+    width: 100%;
+    height: 1026px;
+    border-radius: 40px;
+    background-image: url(work/Lumiere.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ------- overview -------- */
+#overview p:nth-child(1) {
+    padding-top: 254px;
+    width: 114px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #FDC6C0 0%, #DDE3D3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 141.667% */
+}
+
+#overview p:nth-child(2) {
+    padding-top: 72px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    /* 178.571% */
+    letter-spacing: -0.7px;
+}
+
+#overview p:nth-child(3) {
+    padding-top: 40px;
+    padding-bottom: 274px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 50px;
+    /* 208.333% */
+    letter-spacing: -0.6px;
+}
+
+/* ------- about -------- */
+.ab_one {
+    display: flex;
+    align-items: center;
+    border-top: solid 2px var(--one-white-color);
+    border-bottom: solid 2px var(--one-white-color);
+}
+
+.index_wrap {
+    padding: 22px 0px 22px 0px;
+    border-right: solid 2px var(--one-white-color);
+}
+
+.index {
+    width: 16px;
+    height: 24px;
+    padding: 6px 10px;
+    border-radius: 100px;
+    background-color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-black-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    margin: 0px 28px 0px 28px;
+}
+
+.index_title {
+    background: linear-gradient(90deg, #FDC6C0 0%, #DDE3D3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    /* 141.667% */
+    padding-left: 20px;
+}
+
+.ab_two {
+    position: relative;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.abtp {
+    width: 180px;
+    text-align: center;
+    transform: rotate(-90deg);
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+}
+
+.abtp_two {
+    width: 180px;
+    text-align: center;
+    transform: rotate(90deg);
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    /* 150% */
+}
+
+.ab_two_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab_two_img {
+    width: 600px;
+    height: 600px;
+    margin: 86px 0px 60px 0px;
+    border-radius: 40px;
+    background-image: url(lumiere/about_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ab_two_title {
+    padding-left: 100px;
+}
+
+.ab_two_title p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+.ab_two_title p:nth-child(2) {
+    padding-top: 30px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.ab_three {
+    width: 100%;
+    height: 2138px;
+    display: grid;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-items: stretch;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1.93fr 1fr 1fr 1.93fr;
+    border-top: solid 1px var(--one-white-color);
+    border-bottom: solid 1px var(--one-white-color);
+}
+
+.ab_card_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ab_wrap p:nth-child(1) strong {
+    color: var(--about_title_color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.ab_wrap p:nth-child(1) {
+    color: var(--about_title_color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.ab_wrap p:nth-child(2) {
+    padding-top: 24px;
+    color: var(--about_title_color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+
+/* 카드 1번 */
+.ab_card:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-bottom: solid 1px var(--one-white-color);
+    border-right: solid 1px var(--one-white-color);
+    padding: 50px 50px 50px 40px;
+}
+
+.ab_card:nth-child(1) .ab_content p:nth-child(1) {
+    padding-top: 30px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.ab_card:nth-child(1) .ab_content p:nth-child(2) {
+    padding-top: 14px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* 카드 2번 */
+.ab_card:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border-bottom: solid 1px var(--one-white-color);
+    padding: 50px 40px 50px 50px;
+}
+
+.ab_card:nth-child(2) .ab_content {
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.colors_long {
+    width: 280px;
+    height: 80px;
+    background-color: #faf6ee;
+    border-radius: 14px;
+}
+
+.colors {
+    width: 80px;
+    height: 80px;
+    border-radius: 14px;
+}
+
+.color_wrap p {
+    padding-top: 10px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.color_wrap:nth-child(2) .colors {
+    background-color: #88582F;
+}
+
+.color_wrap:nth-child(3) .colors {
+    background-color: #6C6B6B;
+}
+
+/* 카드 3번 */
+.ab_card:nth-child(3) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-right: solid 1px var(--one-white-color);
+    border-bottom: solid 1px var(--one-white-color);
+    padding: 90px 50px 90px 40px;
+}
+
+.ab_card:nth-child(3) .ab_card_wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ab_card:nth-child(3) .ttt {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+}
+
+/* 카드 4번 */
+.ab_card:nth-child(4) {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border-bottom: solid 1px var(--one-white-color);
+    padding: 50px 40px 50px 50px;
+}
+
+.icon_wrap {
+    display: flex;
+    gap: 52px;
+}
+
+.icon_wrap:nth-child(1) {
+    padding-top: 40px;
+}
+
+.icon_wrap li:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.icon_wrap li {
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon_wrap:nth-child(1) li:nth-child(1) {
+    background-image: url(lumiere/icon/arrow.svg);
+}
+
+.icon_wrap:nth-child(1) li:nth-child(2) {
+    background-image: url(lumiere/icon/check.svg);
+}
+
+.icon_wrap:nth-child(1) li:nth-child(3) {
+    background-image: url(lumiere/icon/down.svg);
+}
+
+.icon_wrap:nth-child(1) li:nth-child(4) {
+    background-image: url(lumiere/icon/write.svg);
+}
+
+.icon_wrap:nth-child(1) li:nth-child(5) {
+    background-image: url(lumiere/icon/chat.svg);
+}
+
+.icon_wrap:nth-child(1) li:nth-child(6) {
+    background-image: url(lumiere/icon/plus.svg);
+}
+
+
+.icon_wrap:nth-child(2) li:nth-child(1) {
+    background-image: url(lumiere/icon/cart.svg);
+}
+
+.icon_wrap:nth-child(2) li:nth-child(2) {
+    background-image: url(lumiere/icon/person.svg);
+}
+
+.icon_wrap:nth-child(2) li:nth-child(3) {
+    background-image: url(lumiere/icon/bookmark.svg);
+}
+
+.icon_wrap:nth-child(2) li:nth-child(4) {
+    background-image: url(lumiere/icon/instargram.svg);
+}
+
+.icon_wrap:nth-child(2) li:nth-child(5) {
+    background-image: url(lumiere/icon/light_one.svg);
+}
+
+.icon_wrap:nth-child(2) li:nth-child(6) {
+    background-image: url(lumiere/icon/light_two.svg);
+}
+
+/* 카드 5번 */
+.ab_card:nth-child(5) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-bottom: solid 1px var(--one-white-color);
+    padding: 50px 50px 50px 50px;
+}
+
+.lumiere_logo {
+    padding-top: 65px;
+}
+
+.lu_logo {
+    max-width: 353px;
+    height: 177px;
+    background-image: url(lumiere/lumiere_logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* 카드 6번 */
+.ab_card:nth-child(6) {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-left: solid 1px var(--one-white-color);
+    border-bottom: solid 1px var(--one-white-color);
+    padding: 90px 40px 90px 50px;
+}
+
+.ab_card:nth-child(6) .ab_card_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.type {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid var(--one-white-color);
+}
+
+.type:nth-child(1) {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.type:nth-child(2) {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 32px;
+}
+
+.type:nth-child(3) {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.type:nth-child(4) {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+
+/* 카드 7번 */
+.ab_card:nth-child(7) {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 90px 50px 90px 40px;
+}
+
+.ab_card:nth-child(7) .ab_card_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ab_card:nth-child(7) .ab_content {
+    padding-top: 60px;
+}
+
+.keyword {
+    max-width: 590px;
+    height: 212px;
+    background-image: url(lumiere/keywords.svg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.key_con {
+    padding-top: 34px;
+    width: 590px;
+    display: flex;
+}
+
+.key_con p {
+    width: 212px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* 카드 8번 */
+.ab_card:nth-child(8) {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-left: solid 1px var(--one-white-color);
+    padding: 50px 40px 50px 50px;
+}
+
+.ab_card:nth-child(8) .ab_card_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ab_card:nth-child(8) .ab_content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.ab_card:nth-child(8) .ab_content li {
+    width: 62px;
+    height: 62px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ab_card:nth-child(8) .ab_content li:nth-child(1) {
+    background-image: url(lumiere/icon/figma_icon.svg);
+}
+
+.ab_card:nth-child(8) .ab_content li:nth-child(2) {
+    background-image: url(lumiere/icon/ps_icon.svg);
+}
+
+.ab_card:nth-child(8) .ab_content li:nth-child(3) {
+    background-image: url(lumiere/icon/ai_icon.svg);
+}
+
+
+/* 카드 9번 */
+.ab_card:nth-child(9) {
+    position: relative;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-top: solid 1px var(--one-white-color);
+    padding: 90px 40px 50px 40px;
+}
+
+.ab_card:nth-child(9) .ab_card_wrap {
+    display: flex;
+    justify-content: none;
+}
+
+.ab_card:nth-child(9) .ab_content {
+    display: flex;
+    gap: 24px;
+    padding-left: 190px;
+}
+
+.grid_con {
+    width: 110px;
+}
+
+.grid_con p {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.grid_con:nth-child(1) p {
+    text-align: right;
+}
+
+.grid_con:nth-child(2) p {
+    text-align: left;
+}
+
+.grid_con .gr_title {
+    padding-bottom: 12px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.grid_con .gr_title_two {
+    padding-top: 200px;
+    padding-bottom: 12px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.grid {
+    width: 710px;
+    height: 400px;
+    background-image: url(lumiere/grid.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.ab_four {
+    width: 100%;
+    height: 557px;
+    padding-top: 50px;
+}
+
+.ab_four .in {
+    width: 100%;
+    height: 557px;
+    background-image: url(lumiere/section_one_light.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.world_line {
+    width: 100%;
+    height: 80px;
+    background-image: url(lumiere/lumiere_line.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* ----------------------- section_two ----------------------- */
+#section_two {
+    background-color: var(--one-black-color);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.main_page_ {
+    padding-top: 184px;
+}
+
+.main_page_bg {
+    height: 3000px;
+    width: 100%;
+    background-image: url(lumiere/work/main_page_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explain_index {
+    width: 100%;
+    padding-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.explain_index p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 24px;
+    /* 150% */
+}
+
+.ex_one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ex_one p {
+    width: 124px;
+}
+
+.ee {
+    text-align: right;
+}
+
+.ex_two {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ex_line {
+    width: 520px;
+    height: 1px;
+    background-image: url(lumiere/ex_line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main_page_wrap {
+    position: absolute;
+    right: 40px;
+    width: 346px;
+    height: 3220px;
+}
+
+.design {
+    margin-top: 114px;
+    width: 346px;
+    display: flex;
+    align-items: center;
+    border-top: solid 2px var(--one-white-color);
+    border-bottom: solid 2px var(--one-white-color);
+}
+
+.main_page {
+    position: sticky;
+    z-index: 3;
+    top: 90px;
+    width: 210px;
+    height: 336px;
+    padding-left: 112px;
+}
+
+.ii {
+    width: 20px;
+    height: 24px;
+    background-image: url(lumiere/sort_line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ma_pa_title {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.ma_pa_list {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 24px;
+}
+
+.ma_pa_list li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.mokup {
+    padding-top: 104px;
+    padding-bottom: 120px;
+    width: 100%;
+    height: 755px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.mokone {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(lumiere/work/light_one.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 40px;
+}
+
+.moktwo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(lumiere/work/mokup_one.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 40px;
+}
+
+/* ----------------------- section_three ----------------------- */
+#section_three {
+    width: 100%;
+    background-color: var(--one-black-color);
+    background-image: url(lumiere/work/detail_one_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1887px;
+}
+
+.detail_page_wrap {
+    position: absolute;
+    width: 346px;
+    height: 1700px;
+}
+
+.detail_page {
+    position: sticky;
+    z-index: 3;
+    top: 90px;
+    width: 284px;
+    height: 336px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+.de_pa_title {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 24px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.de_pa_list {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 24px;
+    text-align: right;
+}
+
+.de_pa_list li {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.detail_page_bg {
+    max-width: 1200px;
+    padding-top: 508px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.detail_page_bg #fillter {
+    width: 182px;
+    height: 484px;
+    margin-right: 40px;
+    margin-top: 156px;
+    background-image: url(lumiere/work/fillter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.detail_page_bg .one {
+    width: 758px;
+    height: 1126px;
+    background-image: url(lumiere/work/detail_page_one.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.detail_page_bg #align {
+    width: 182px;
+    height: 210px;
+    margin-left: 40px;
+    margin-top: -56px;
+    background-image: url(lumiere/work/align.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ----------------------- section_four ----------------------- */
+#section_four {
+    width: 100%;
+    background-color: var(--one-black-color);
+    background-image: url(lumiere/work/detail_two_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+#section_four .same {
+    /* height: 4380px; */
+    height: 100%;
+}
+
+.detail_page_two_bg {
+    width: 100%;
+    padding-top: 508px;
+}
+
+.detail_page_two_bg .two {
+    position: relative;
+    width: 758px;
+    margin: 0 auto;
+    height: 3772px;
+    background-image: url(lumiere/work/detail_page_two.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scroll {
+    position: absolute;
+    width: 896px;
+    top: 560px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 3820px;
+}
+
+.screen {
+    position: sticky;
+    top: 200px;
+    height: 576px;
+    width: 100%;
+    background-image: url(lumiere/work/screen.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#section_four .main_page_wrap {
+    padding-top: 200px;
+    width: 300px;
+    position: absolute;
+    right: 40px;
+    height: 4000px;
+}
+
+#section_four .main_page {
+    position: sticky;
+    z-index: 3;
+    top: 90px;
+    width: 300px;
+    height: 300px;
+    padding-left: 0px;
+}
+
+#section_four .mokup {
+    position: relative;
+}
+
+#section_four .mokup .mokone {
+    background-image: url(lumiere/work/mokup_two.svg);
+}
+
+#section_four .mokup .moktwo {
+    background-image: url(lumiere/work/mokup_three.svg);
+}
+
+
+/* ----------------------- section_five ----------------------- */
+#sub_section_five {
+    width: 100%;
+    background-color: var(--one-black-color);
+    background-image: url(lumiere/work/shopping_cart_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 1764px;
+    margin-bottom: 120px;
+}
+
+
+.detail_page_three_bg {
+    width: 100%;
+    padding-top: 424px;
+}
+
+.detail_page_three_bg .three {
+    width: 758px;
+    margin: 0 auto;
+    height: 1184px;
+    background-image: url(lumiere/work/shopping_design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+#option {
+    width: 300px;
+    height: 164px;
+    position: absolute;
+    background-image: url(lumiere/work/option.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: -340px;
+    top: 194px;
+}
+
+
+
+.li_two {
+    margin-bottom: 408px;
+}
+
+
+
+

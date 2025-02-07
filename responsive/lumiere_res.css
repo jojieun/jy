@@ -1,0 +1,1003 @@
+@media (max-width: 1455px) {
+    .ab_two {
+        height: 516px;
+    }
+
+    .abtp {
+        width: 70px;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .abtp_two {
+        width: 70px;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .ab_two_img {
+        width: 414px;
+        height: 414px;
+        margin: 54px 0px 48px 0px;
+        background-image: url(/lumiere/about_img.jpg);
+    }
+
+    .ab_two_title {
+        padding-left: 98px;
+    }
+
+    .ab_two_title p {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 34px;
+    }
+
+    .ab_two_title p:nth-child(2) {
+        padding-top: 24px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+
+
+    .ex_line {
+        width: 420px;
+        height: 1px;
+        background-image: url(/lumiere/ex_line.svg);
+    }
+
+    /* section_three */
+    .detail_page {
+        top: 60px;
+        padding-left: 0px;
+        padding-top: 160px;
+    }
+
+
+    /* section_four */
+    #section_four .main_page_wrap {
+        width: 280px;
+        right: 18px;
+    }
+    
+    #section_four .main_page {
+        width: 280px;
+    }
+
+
+    /* section_five */
+    #sub_section_five .detail_page {
+        top: 60px;
+        padding-left: 0px;
+        padding-top: 160px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 1308px) {
+    /* 카드 1번 */
+    .ab_card:nth-child(1) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .ab_card:nth-child(1) .ab_content p:nth-child(1) {
+        padding-top: 70px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .ab_card:nth-child(1) .ab_content p:nth-child(2) {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    /* 카드 2번 */
+    .ab_card:nth-child(2) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .ab_card:nth-child(2) .ab_content {
+        gap: 7px;
+    }
+
+    .colors_long {
+        width: 194px;
+    }
+
+    .colors {
+        width: 104px;
+    }
+
+    .color_wrap p {
+        padding-top: 6px;
+        font-size: 14px;
+    }
+
+    /* 카드 3번 */
+    .ab_card:nth-child(3) {
+        padding: 50px 50px 50px 40px;
+    }
+
+    .ab_card:nth-child(3) .ttt {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+    /* 카드 4번 */
+    .ab_card:nth-child(4) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .icon_wrap:nth-child(1) {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
+
+    .icon_wrap {
+        margin-bottom: none;
+        height: 40px;
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(1) {
+        background-image: url(/lumiere/icon/arrow.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(2) {
+        background-image: url(/lumiere/icon/check.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(3) {
+        background-image: url(/lumiere/icon/down.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(4) {
+        background-image: url(/lumiere/icon/write.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(5) {
+        background-image: url(/lumiere/icon/chat.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(6) {
+        background-image: url(/lumiere/icon/plus.svg);
+    }
+
+
+    .icon_wrap:nth-child(2) li:nth-child(1) {
+        background-image: url(/lumiere/icon/cart.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(2) {
+        background-image: url(/lumiere/icon/person.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(3) {
+        background-image: url(/lumiere/icon/bookmark.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(4) {
+        background-image: url(/lumiere/icon/instargram.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(5) {
+        background-image: url(/lumiere/icon/light_one.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(6) {
+        background-image: url(/lumiere/icon/light_two.svg);
+    }
+
+    /* 카드 5번 */
+    .ab_card:nth-child(5) {
+        grid-column-end: 5;
+        padding: 50px 50px 50px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lumiere_logo {
+        padding-top: 59px;
+    }
+
+    .lu_logo {
+        width: 352px;
+        height: 176px;
+        background-image: url(/lumiere/lumiere_logo.svg);
+        margin: none;
+    }
+
+    /* 카드 6번 */
+    .ab_card:nth-child(6) {
+        grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        padding: 50px 40px 50px 50px;
+    }
+
+    /* 카드 7번 */
+    .ab_card:nth-child(7) {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding: 50px 50px 50px 40px;
+        border-bottom: solid 1px var(--one-white-color);
+    }
+
+    .ab_card:nth-child(7) .ab_card_wrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ab_card:nth-child(7) .ab_content {
+        padding-top: 72px;
+    }
+
+    .keyword {
+        width: 100%;
+        height: 168px;
+        background-position: center;
+        background-image: url(/lumiere/keywords.svg);
+    }
+
+    .key_con {
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    .key_con p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    /* 카드 8번 */
+    .ab_card:nth-child(8) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        border-left: none;
+        padding: 50px 40px 50px 50px;
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(1) {
+        background-image: url(/lumiere/icon/figma_icon.svg);
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(2) {
+        background-image: url(/lumiere/icon/ps_icon.svg);
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(3) {
+        background-image: url(/lumiere/icon/ai_icon.svg);
+    }
+
+
+    /* 카드 9번 */
+    .ab_card:nth-child(9) {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .ab_card:nth-child(9) .ab_card_wrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ab_card:nth-child(9) .ab_content {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .grid_con .gr_title_two {
+        padding-top: 148px;
+    }
+
+    .grid {
+        width: 640px;
+        height: 360px;
+        background-image: url(/lumiere/grid.svg);
+    } 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1185px) {
+
+    .same {
+        max-width: 1038px;
+        margin: 0 auto;
+        padding: 0px 73px 0px 73px;
+    }
+
+    /* ----------------------- section_one ----------------------- */
+    #section_one {
+        background-image: url(/lumiere/section_one_bg.svg);
+    }
+
+    /* ------- main -------- */
+    .main_title {
+        padding: 100px 0px;
+    }
+
+    .main_title p {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 68px;
+        letter-spacing: -1.25px;
+    }
+
+    .main_title strong {
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 68px;
+        letter-spacing: -1.4px;
+    }
+
+    .main_information {
+        max-width: 1038px;
+    }
+
+    .main_information p {
+        padding: 11px 0px 11px 0px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+    }
+
+    .main_image {
+        padding-top: 36px;
+        height: 676px;
+    }
+
+    .main_image_in {
+        height: 676px;
+        border-radius: 40px;
+        background-image: url(/work/Lumiere.jpg);
+    }
+
+    /* ------- overview -------- */
+    #overview p:nth-child(1) {
+        padding-top: 214px;
+        width: 75px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    #overview p:nth-child(2) {
+        padding-top: 48px;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.475px;
+    }
+
+    #overview p:nth-child(3) {
+        padding-top: 28px;
+        padding-bottom: 200px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+    }
+
+
+    /* ------- about -------- */
+    #about {
+        height: 3506px;
+    }
+
+    /* .ab_two {
+        height: 516px;
+    }
+
+    .abtp {
+        width: 70px;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    }
+
+    .abtp_two {
+        width: 70px;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 16px;
+    } */
+
+    /* .ab_two_img {
+        width: 414px;
+        height: 414px;
+        margin: 54px 0px 48px 0px;
+        background-image: url(/lumiere/about_img.jpg);
+    }
+
+    .ab_two_title {
+        padding-left: 98px;
+    }
+
+    .ab_two_title p {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 34px;
+    }
+
+    .ab_two_title p:nth-child(2) {
+        padding-top: 24px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    } */
+
+    /* .ab_three {
+        height: 2500px;
+        grid-template-columns: 420fr 86fr 45fr 462fr;
+        grid-template-rows: 370fr 364fr 336fr 481fr 218fr 700fr;
+    }
+
+    .ab_wrap p:nth-child(1) strong {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    .ab_wrap p:nth-child(1) {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .ab_wrap p:nth-child(2) {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    /* 카드 1번 */
+    .ab_card:nth-child(1) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .ab_card:nth-child(1) .ab_content p:nth-child(1) {
+        padding-top: 70px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+    }
+
+    .ab_card:nth-child(1) .ab_content p:nth-child(2) {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    /* 카드 2번 */
+    .ab_card:nth-child(2) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .ab_card:nth-child(2) .ab_content {
+        gap: 7px;
+    }
+
+    .colors_long {
+        width: 194px;
+    }
+
+    .colors {
+        width: 104px;
+    }
+
+    .color_wrap p {
+        padding-top: 6px;
+        font-size: 14px;
+    }
+
+    /* 카드 3번 */
+    .ab_card:nth-child(3) {
+        padding: 50px 50px 50px 40px;
+    }
+
+    .ab_card:nth-child(3) .ttt {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+    /* 카드 4번 */
+    .ab_card:nth-child(4) .ab_card_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .icon_wrap:nth-child(1) {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
+
+    .icon_wrap {
+        margin-bottom: none;
+        height: 40px;
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(1) {
+        background-image: url(/lumiere/icon/arrow.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(2) {
+        background-image: url(/lumiere/icon/check.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(3) {
+        background-image: url(/lumiere/icon/down.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(4) {
+        background-image: url(/lumiere/icon/write.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(5) {
+        background-image: url(/lumiere/icon/chat.svg);
+    }
+
+    .icon_wrap:nth-child(1) li:nth-child(6) {
+        background-image: url(/lumiere/icon/plus.svg);
+    }
+
+
+    .icon_wrap:nth-child(2) li:nth-child(1) {
+        background-image: url(/lumiere/icon/cart.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(2) {
+        background-image: url(/lumiere/icon/person.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(3) {
+        background-image: url(/lumiere/icon/bookmark.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(4) {
+        background-image: url(/lumiere/icon/instargram.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(5) {
+        background-image: url(/lumiere/icon/light_one.svg);
+    }
+
+    .icon_wrap:nth-child(2) li:nth-child(6) {
+        background-image: url(/lumiere/icon/light_two.svg);
+    }
+
+    /* 카드 5번 */
+    .ab_card:nth-child(5) {
+        grid-column-end: 5;
+        padding: 50px 50px 50px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lumiere_logo {
+        padding-top: 59px;
+    }
+
+    .lu_logo {
+        width: 352px;
+        height: 176px;
+        background-image: url(/lumiere/lumiere_logo.svg);
+        margin: none;
+    }
+
+    /* 카드 6번 */
+    .ab_card:nth-child(6) {
+        grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        padding: 50px 40px 50px 50px;
+    }
+
+    /* 카드 7번 */
+    .ab_card:nth-child(7) {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding: 50px 50px 50px 40px;
+        border-bottom: solid 1px var(--one-white-color);
+    }
+
+    .ab_card:nth-child(7) .ab_card_wrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ab_card:nth-child(7) .ab_content {
+        padding-top: 72px;
+    }
+
+    .keyword {
+        width: 100%;
+        height: 168px;
+        background-position: center;
+        background-image: url(/lumiere/keywords.svg);
+    }
+
+    .key_con {
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    .key_con p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    /* 카드 8번 */
+    .ab_card:nth-child(8) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        border-left: none;
+        padding: 50px 40px 50px 50px;
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(1) {
+        background-image: url(/lumiere/icon/figma_icon.svg);
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(2) {
+        background-image: url(/lumiere/icon/ps_icon.svg);
+    }
+
+    .ab_card:nth-child(8) .ab_content li:nth-child(3) {
+        background-image: url(/lumiere/icon/ai_icon.svg);
+    }
+
+
+    /* 카드 9번 */
+    .ab_card:nth-child(9) {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .ab_card:nth-child(9) .ab_card_wrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ab_card:nth-child(9) .ab_content {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .grid_con .gr_title_two {
+        padding-top: 148px;
+    }
+
+    .grid {
+        width: 640px;
+        height: 360px;
+        background-image: url(/lumiere/grid.svg);
+    } 
+
+    .ab_four {
+        width: 100%;
+        height: 557px;
+        padding-top: 50px;
+    }
+
+    .ab_four .in {
+        height: 352px;
+        background-image: url(/lumiere/section_one_light.svg);
+    }
+
+    .world_line {
+        height: 56px;
+        background-image: url(/lumiere/lumiere_line.gif);
+    }
+
+
+    /* ----------------------- section_two ----------------------- */
+    #section_two {
+        height: 100%;
+    }
+
+    .main_page_bg {
+        height: 1994px;
+        background-image: url(/lumiere/work/main_page_bg.svg);
+    }
+
+    .explain_index p {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 16px
+    }
+
+    .ex_one p {
+        width: 85px;
+    }
+
+    .ex_line {
+        width: 300px;
+        background-image: url(/lumiere/ex_line.svg);
+    }
+
+    .main_page_wrap {
+        right: 100px;
+        width: 237px;
+        height: 2170px;
+    }
+
+    .design {
+        margin-top: 114px;
+        width: 237px;
+    }
+
+    .main_page {
+        top: 80px;
+        width: 160px;
+        height: 185px;
+        padding-left: 76px;
+    }
+
+    .ii {
+        width: 14px;
+        height: 16px;
+        background-image: url(/lumiere/sort_line.svg);
+    }
+
+    .ma_pa_title {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24.702px;
+    }
+
+    .ma_pa_list {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 16px;
+    }
+
+    .ma_pa_list li {
+        padding-bottom: 7px;
+    }
+
+    .mokup {
+        padding-top: 58px;
+        padding-bottom: 80px;
+        height: 496px;
+    }
+
+    .mokone {
+        background-image: url(/lumiere/work/light_one.svg);
+    }
+
+    .moktwo {
+        background-image: url(/lumiere/work/mokup_one.svg);
+    }
+
+    /* ----------------------- section_three ----------------------- */
+    #section_three {
+        background-image: url(/lumiere/work/detail_one_bg.svg);
+        height: 1289px;
+    }
+
+    .detail_page_wrap {
+        width: 196px;
+        height: 1700px;
+    }
+
+    .detail_page {
+        position: relative;
+        top: 0px;
+        width: 210px;
+        height: 132px;
+        padding-left: 0px;
+        padding-top: 92px;
+    }
+
+    .de_pa_title {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23.423px;
+    }
+
+    .de_pa_list {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 16px;
+    }
+
+    .detail_page_bg {
+        max-width: 1000px;
+        padding-top: 332px;
+    }
+
+    .detail_page_bg #fillter {
+        margin-right: 20px;
+        margin-top: 156px;
+        background-image: url(/lumiere/work/fillter.svg);
+    }
+
+    .detail_page_bg .one {
+        width: 570px;
+        height: 749px;
+        background-image: url(/lumiere/work/detail_page_one.svg);
+    }
+
+    .detail_page_bg #align {
+        margin-left: 20px;
+        background-image: url(/lumiere/work/align.svg);
+    }
+
+    /* ----------------------- section_four ----------------------- */
+    #section_four {
+        background-image: url(/lumiere/work/detail_two_bg.svg);
+    }
+
+    .detail_page_two_bg {
+        width: 100%;
+        padding-top: 430px;
+    }
+
+    .detail_page_two_bg .two {
+        width: 504px;
+        height: 2400px;
+        background-image: url(/lumiere/work/detail_page_two.svg);
+    }
+
+    .scroll {
+        width: 590px;
+        top: 460px;
+        height: 2490px;
+    }
+
+    .screen {
+        top: 200px;
+        height: 395px;
+        background-image: url(/lumiere/work/screen.svg);
+    }
+
+    #section_four .main_page_wrap {
+        padding-top: 90px;
+        width: 205px;
+        right: 70px;
+        height: 2700px;
+    }
+
+    #section_four .main_page {
+        top: 90px;
+        width: 205px;
+        height: 300px;
+        padding-left: 0px;
+    }
+
+    #section_four .mokup .mokone {
+        background-image: url(/lumiere/work/mokup_two.svg);
+    }
+
+    #section_four .mokup .moktwo {
+        background-image: url(/lumiere/work/mokup_three.svg);
+    }
+
+    /* ----------------------- section_five ----------------------- */
+    #sub_section_five {
+        background-image: url(/lumiere/work/shopping_cart_bg.svg);
+        height: 1176px;
+        margin-bottom: 60px;
+    }
+
+
+    .detail_page_three_bg {
+        padding-top: 282px;
+    }
+
+    .detail_page_three_bg .three {
+        width: 504px;
+        height: 790px;
+        background-image: url(/lumiere/work/shopping_design.svg);
+    }
+
+
+    #option {
+        width: 200px;
+        height: 110px;
+        background-image: url(/lumiere/work/option.svg);
+        right: -220px;
+        top: 134px;
+    }
+
+    #sub_section_five .detail_page_wrap {
+        position: absolute;
+        width: 346px;
+        height: 1100px;
+    }
+
+    #sub_section_five .detail_page {
+        position: sticky;
+        z-index: 3;
+        top: 50px;
+        width: 200px;
+        height: 236px;
+        padding-left: 0px;
+        padding-top: 90px;
+    }
+
+
+    .li_two {
+        margin-bottom: 248px;
+    }
+
+}

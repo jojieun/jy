@@ -1,0 +1,525 @@
+:root {
+    --one-white-color: #F8F8F8;
+    --one-black-color: #0C0C0F;
+    --one_card_color: #E9E9E9;
+    --one_btn_hover_color: #008FFF;
+    --two_green_color: #02343F;
+    --two_yellow_color: #F6F5E3;
+    --two_card_color: #DEE2D3;
+    --about_title_color: #FFE6D1;
+}
+
+body {
+    background-color: var(--one-black-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.same {
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+
+.inverted {
+    background-color: var(--one-black-color);
+    color: var(--one-white-color);
+}
+
+.cursor {
+    width: 26px;
+    height: 26px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 50%;
+    /* 원 형태 */
+    position: absolute;
+    pointer-events: none;
+    /* 원이 클릭 이벤트를 방해하지 않음 */
+    transform: translate(-50%, -50%);
+    /* 마우스 위치 중심으로 조정 */
+    z-index: 9999;
+    /* 다른 요소 위에 표시 */
+    mix-blend-mode: difference;
+    /* 색상 반전 */
+}
+
+/* ----------------------- 인터렉션 버튼 ----------------------- */
+#sub_menu_big {
+    max-width: 525px;
+    /* height: 256px; */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    bottom: 30px;
+    transition-duration: 0.3s;
+}
+
+#design_list {
+    width: 170px;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 4px;
+    position: absolute;
+    top: -186px;
+    right: -10px;
+    display: none;
+}
+
+#de_content {
+    width: 170px;
+    height: 152px;
+    padding: 2px;
+    border-radius: 20px;
+    background: var(--one-white-color);
+    justify-content: center;
+    cursor: pointer;
+}
+
+#de_content ul li a {
+    padding: 7px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#de_content ul li a:hover {
+    padding: 7px 12px;
+    border-radius: 20px;
+    background-color: var(--one-black-color);
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    width: 20px;
+    height: 23px;
+    background-image: url(lumiere/check.svg);
+}
+
+#de_content ul li p {
+    width: 114px;
+    padding-left: 8px;
+    color: var(--one-black-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+#de_content ul li:hover p {
+    color: var(--one-white-color);
+}
+
+#tail {
+    width: 20px;
+    height: 10px;
+    background-image: url(lumiere/tail.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#sub_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    bottom: 30px;
+    transition-duration: 0.3s; */
+}
+
+/* #sub_menu.on {
+    display: flex;
+} */
+
+#sub_menu_wrap {
+    max-width: 520px;
+    height: 100%;
+    border-radius: 200px;
+    background-color: var(--one-black-color);
+    margin-right: 10px;
+}
+
+#sub_menu_list {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 14px;
+}
+
+.sub_menu_list_in {
+    margin-right: 10px;
+}
+
+.sub_menu_list_in a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 8px;
+}
+
+.sub_menu_list_in.on a {
+    padding: 8px 24px 8px 16px;
+}
+
+.sub_menu_list_in:nth-child(4) {
+    margin-right: 0px;
+}
+
+.sub_menu_list_in a>p {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: -0.35px;
+}
+
+.sub_menu_list_in.on {
+    background-color: var(--one-white-color);
+    border-radius: 200px;
+}
+
+.sub_menu_list_in.on a>p {
+    color: var(--one-black-color);
+    font-weight: 700;
+}
+
+.sub_menu_list_in .menu_img {
+    display: none;
+}
+
+.sub_menu_list_in:nth-child(1).on .menu_img {
+    display: flex;
+    align-items: center;
+    width: 26px;
+    height: 16px;
+    background-image: url('image/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.sub_menu_list_in:nth-child(2).on .menu_img {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-image: url('image/circle:real:black.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.sub_menu_list_in:nth-child(3).on .menu_img {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-image: url('image/circle:real:black.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.sub_menu_list_in:nth-child(4).on .menu_img {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-image: url('image/circle:real:black.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#back_btn {
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: var(--one-black-color);
+    background-image: url('lumiere/back_btn.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.3s;
+}
+
+#back_btn:hover {
+    background-color: rgba(var(--one-black-color), 0.8);
+    scale: 0.98;
+    background-image: url('lumiere/back_btn.svg');
+}
+
+/* --------- header ----------- */
+
+#mhwrap {
+    display: none;
+    position: fixed;
+    width: 450px;
+    height: 98vh;
+    border-radius: 600px 0px 0px 600px;
+    background-color: var(--one-black-color);
+    border-left: 10px solid var(--one-white-color);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99999;
+    transition-duration: 0.3s;
+}
+
+#mhwrap.on {
+    display: inline-block;
+}
+
+#menu_h_wrap {
+    width: 170px;
+    /* height: 494px; */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding-right: 94px;
+    cursor: pointer;
+}
+
+.hh_image {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    padding-bottom: 60px;
+    transition-duration: 0.3s;
+}
+
+.hh_image:hover {
+    scale: 0.98;
+}
+
+.hwi {
+    text-align: right;
+    height: 86px;
+    transition-duration: 0.3s;
+}
+
+.hwi a {
+    font-family: "Noto Sans KR", sans-serif;
+    color: var(--one-white-color);
+    text-align: right;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 48px;
+    letter-spacing: -0.34px;
+    padding-bottom: 36px;
+    transition-duration: 0.3s;
+}
+
+.hwi:hover {
+    scale: 0.98;
+    font-weight: 700;
+}
+
+.hwi:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    background-image: url(image/menu_logo_white.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-bottom: 0px;
+}
+
+#mhwrap .h_wrap_in .hwi::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: var(--one-white-color);
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    margin-top: -14px;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+#mhwrap .h_wrap_in .hwi:hover {
+    color: var(--one-white-color);
+}
+
+#mhwrap .h_wrap_in .hwi:hover::before {
+    opacity: 1;
+    left: -10px;
+}
+
+
+
+
+
+#main_header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(var(--one-white-color), 0.3);
+    backdrop-filter: blur(6px);
+    z-index: 9999;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0px 14px 0px;
+}
+
+#menu_h {
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    background-image: url(image/menu_white.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#logo {
+    width: 64px;
+    height: 32px;
+    background-image: url(image/logo_white.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/* ------------ footer ------------ */
+#footer {
+    height: 648px;
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+#footer_title_wrap {
+    width: 495px;
+    margin-left: auto;
+}
+
+#fo_title_one {
+    padding-bottom: 86px;
+}
+
+#fo_title_one p {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: 0.6px;
+}
+
+#fo_title_one p:nth-child(1) {
+    padding-bottom: 12px;
+}
+
+#fo_title_two {
+    display: flex;
+    width: 495px;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-top: 4px solid var(--one-white-color);
+}
+
+.ftt_one_in a p {
+    display: inline-block;
+    padding-bottom: 12px;
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+    transition-duration: 0.3s;
+}
+
+.ftt_one_in a p:hover {
+    scale: 0.98;
+    font-weight: 700;
+}
+
+.ftt_one_in a p:nth-child(4) {
+    padding-bottom: none;
+}
+
+.instargram_icon {
+    width: 32px;
+    height: 32px;
+    background-image: url(image/instargram_icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.link_icon {
+    width: 32px;
+    height: 32px;
+    background-image: url(image/link_icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ftt_two_in a {
+    display: flex;
+    gap: 10px;
+    transition-duration: 0.3s;
+}
+
+.ftt_two_in:nth-child(1) {
+    padding-bottom: 28px;
+}
+
+.ftt_two_in a p {
+    color: var(--one-white-color);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.ftt_two_in:hover a {
+    scale: 0.98;
+    font-weight: 700;
+}
+
+#footer_img {
+    padding-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-image: url(image/DESIGN\ ARCHIVE_white.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* ----------------------- 공통부분 끝 ----------------------- */
